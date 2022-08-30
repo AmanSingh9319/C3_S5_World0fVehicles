@@ -39,5 +39,18 @@ public class Transmission {
     public void setNoOfGears(int noOfGears) {
         this.noOfGears = noOfGears;
     }
+    double [] gearRatio=new double[noOfGears];
 
+    public double[] getGearRatio() {
+        return gearRatio;
+    }
+
+    public void setGearRatio(double[] gearRatio) {
+        this.gearRatio = gearRatio;
+    }
+
+    public void showSpecs(){
+        System.out.println("Transmission type = " + transmissiontype);
+
+}
 }
