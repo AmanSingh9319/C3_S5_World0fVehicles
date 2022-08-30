@@ -6,4 +6,38 @@
 package data;
 
 public class Transmission {
+    private String transmissiontype;
+    private String modelNo;
+    private int noOfGears;
+
+    public Transmission(String transmissiontype, String modelNo, int noOfGears) {
+        this.transmissiontype = transmissiontype;
+        this.modelNo = modelNo;
+        this.noOfGears = noOfGears;
+    }
+
+    public String getTransmissiontype() {
+        return transmissiontype;
+    }
+
+    public void setTransmissiontype(String transmissiontype) {
+        this.transmissiontype = transmissiontype;
+    }
+
+    public String getModelNo() {
+        return modelNo;
+    }
+
+    public void setModelNo(String modelNo) {
+        this.modelNo = modelNo;
+    }
+
+    public int getNoOfGears() {
+        return noOfGears;
+    }
+
+    public void setNoOfGears(int noOfGears) {
+        this.noOfGears = noOfGears;
+    }
+
 }
