@@ -51,6 +51,11 @@ public class Transmission {
 
     public void showSpecs(){
         System.out.println("Transmission type = " + transmissiontype);
+        System.out.println("Transmission model no = "+modelNo);
+        System.out.println("key Specifications : ");
+        System.out.println("forward Gears = "+noOfGears);
+        for (int i =0; i<noOfGears;i++){
 
+        }
 }
 }
