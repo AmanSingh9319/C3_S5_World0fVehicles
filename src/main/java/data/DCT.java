@@ -12,17 +12,17 @@ public class DCT extends Automatic{
     }
 
     @Override
-    public void setModelNo(String modelNo) {
-        super.setModelNo(modelNo);
+    public double[] getGearRatio() {
+        return super.getGearRatio();
     }
 
     @Override
-    public int getNoOfGears() {
-        return super.getNoOfGears();
+    public void setGearRatio(double[] gearRatio) {
+        super.setGearRatio(gearRatio);
     }
 
     @Override
-    public void setNoOfGears(int noOfGears) {
-        super.setNoOfGears(noOfGears);
+    public void showSpecs() {
+        super.showSpecs();
     }
 }

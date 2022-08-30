@@ -55,7 +55,7 @@ public class Transmission {
         System.out.println("key Specifications : ");
         System.out.println("forward Gears = "+noOfGears);
         for (int i =0; i<noOfGears;i++){
-            System.out.println(gearRatio);
+            System.out.println((i+1)+"Gear Ratio"+gearRatio[i]);
         }
 }
 }
