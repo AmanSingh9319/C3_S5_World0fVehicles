@@ -4,7 +4,7 @@
  *Created With: Intellij IDEA Community Edition
  */
 package data;
-
+import data.Automatic;
 public class CVT extends Automatic {
 
     public CVT(String transmissiontype, String modelNo, int noOfGears) {

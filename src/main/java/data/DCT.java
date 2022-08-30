@@ -4,7 +4,7 @@
  *Created With: Intellij IDEA Community Edition
  */
 package data;
-
+import data.Automatic;
 public class DCT extends Automatic{
 
     public DCT(String transmissiontype, String modelNo, int noOfGears) {
